@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="icon" type="image/png" href="./imagens/psy.png" />
+
+    <title>Super Calculadora</title>
+  </head>
+  <body>
+    <header>Super Calculadora</header>
+
+    <p id="labels">
+      <label>Primeiro número (A)</label>
+      <input id="numA" type="number" />
+      <label>Segundo número (B)</label>
+      <input id="numB" type="number" />
+      <button id="button-calc">Calcular</button>
+    </p>
+
+    <table>
+      <tr>
+        <td>
+          Soma <br /><br />
+          <strong id="result-soma"></strong>
+        </td>
+        <td>
+          Subtração A-B<br /><br />
+          <strong id="result-subA"></strong>
+        </td>
+        <td>
+          Subtração B-A<br /><br />
+          <strong id="result-subB"></strong>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Multiplicação <br /><br />
+          <strong id="result-mult"></strong>
+        </td>
+        <td>
+          Divisão A/B <br /><br />
+          <strong id="result-divA"></strong>
+        </td>
+        <td>
+          Divisão B/A <br /><br />
+          <strong id="result-divB"></strong>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Potência de A na base B <br /><br />
+          <strong id="result-potA"></strong>
+        </td>
+        <td>
+          Potência de B na base A <br /><br />
+          <strong id="result-potB"></strong>
+        </td>
+        <td>
+          Raiz quadrada de A <br /><br />
+          <strong id="result-raizA"></strong>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Raiz quadrada de B <br /><br />
+          <strong id="result-raizB"></strong>
+        </td>
+        <td>
+          Fatorial de A <br /><br />
+          <strong id="result-fatA"></strong>
+        </td>
+        <td>
+          Fatorial de B <br /><br />
+          <strong id="result-fatB"></strong>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Porcentagem de A em relação a B <br /><br />
+          <strong id="result-porA"></strong>
+        </td>
+        <td>
+          Porcentagem de B em relação a A <br /><br />
+          <strong id="result-porB"></strong>
+        </td>
+        <td>
+          Média <br /><br />
+          <strong id="result-media"></strong>
+        </td>
+      </tr>
+    </table>
+
+    <div id="psy">
+      <img id="psyduck" src="./imagens/psyTugLife.png" />
+      <strong id="frase-psy"></strong>
+    </div>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
